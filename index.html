@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>segunda aplicacion</title>
+  
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app1.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  </head>
+
+<body onLoad="MM_preloadImages('imagenes/definicionsegundasustitucion2.jpg','imagenes/historiacolapsable1.jpg','imagenes/historiacolapsable2.jpg','imagenes/telefonocelular2.jpg','imagenes/def2.jpg','imagenes/lg.jpg','imagenes/his1.jpeg','imagenes/historia1.jpg')">
+
+  <div data-role="page" id="Principal" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Telefonía Celular en México</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>Teléfono celular</h1>
+       <div>
+         <p> nuevo IPhone 7</p>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/telefonocelular2.jpg',1)"></a><img src="imagenes/telefono.JPG" width="572" height="373"><br>
+        </div>
+        <div></div>
+      </div>
+     </div>  
+     <div> 
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+          <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>DEFINICION</h2>
+            <p>¿Que es un Teléfono?</p>
+          </a>  
+       </li>  
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>HISTORIA</h2>
+             <p>Gama alta, media y baja</p>
+           </a>
+       </li> 
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>CLASIFICACION</h2>
+             <p>Clasificación de los teléfonos celulares gama alta, media,baja</p>
+           </a>  
+       </li>
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>COMPAÑIAS</h2>
+              <p>Compañias de celular en México</p>
+           </a>   
+       </li>
+       <li class="ui-first-child ui-last-child">
+           <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>TELEFONOS DEL FUTURO</h2>
+             <p>Telefonos avanzados</p>
+           </a>
+       </li>
+       </ul>
+     </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <div>
+           <img src="imagenes/logo.png" width="46" height="46">
+        </div>
+        <div>
+           <h4>Aplicacion Dos</h4>
+           <h4>Maria Fernanda Costeño Martinez</h4>
+        </div>
+     </div>
+   </div>
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>DEFINICION</h1>
+     </div>
+     <div data-role="content" align="center">
+     
+        <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Telefono 1</h1>
+              <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('definicion','','imagenes/def2.jpg',1)"><img src="imagenes/definicion.jpg" width="1500" height="1000" id="definicion"></a></p>
+            </div>
+         </div> 
+         
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Telefono2</h1>
+              <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imagen','','imagenes/lg.jpg',1)"><img src="imagenes/moto-z.jpg" width="840" height="613" id="Imagen"></a></p>
+               <br>
+              <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/definicionsegundasustitucion2.jpg',1)"></a></div>
+            </div>
+         </div> 
+         <p>Es un portátil que puede  hacer y recibir&nbsp;<a href="https://es.wikipedia.org/wiki/Llamada_telef%C3%B3nica" title="Llamada telefónica">llamadas</a>&nbsp;a través de una portadora de radiofrecuencia mientras el usuario se está  moviendo dentro de un área de servicio telefónico. El enlace de radiofrecuencia  establece una conexión con los sistemas de conmutación de un&nbsp;<a href="https://es.wikipedia.org/wiki/Operador_de_telefon%C3%ADa_m%C3%B3vil" title="Operador de telefonía móvil">operador de telefonía móvil</a>, que proporciona acceso a la&nbsp;<a href="https://es.wikipedia.org/wiki/Red_telef%C3%B3nica_conmutada" title="Red telefónica conmutada">red telefónica pública conmutada</a>&nbsp;(PSTN).  La mayoría de los servicios de telefonía móvil modernos utilizan una  arquitectura de&nbsp;<a href="https://es.wikipedia.org/wiki/Red_celular" title="Red celular">red  celular</a>, y por lo tanto, los teléfonos móviles son con  frecuencia también llamados&nbsp;<em>Teléfonos  celulares</em>&nbsp;o&nbsp;<em>Celulares</em>. En adición a la&nbsp;<a href="https://es.wikipedia.org/wiki/Telefon%C3%ADa" title="Telefonía">telefonía</a>, los teléfonos móviles de la era de los 2000  soportan una variedad de otros servicios, tales como&nbsp;<a href="https://es.wikipedia.org/wiki/Servicio_de_mensajes_cortos" title="Servicio de mensajes cortos">mensajes de texto</a>,&nbsp;<a href="https://es.wikipedia.org/wiki/MMS" title="MMS">MMS</a>,&nbsp;<a href="https://es.wikipedia.org/wiki/Correo_electr%C3%B3nico" title="Correo electrónico">correo electrónico</a>,&nbsp;<a href="https://es.wikipedia.org/wiki/Conexi%C3%B3n_a_Internet" title="Conexión a Internet">acceso a Internet</a>, comunicaciones inalámbricas de corto alcance (<a href="https://es.wikipedia.org/wiki/Infrared_Data_Association" title="Infrared Data Association">infrarrojos</a>,&nbsp;<a href="https://es.wikipedia.org/wiki/Bluetooth" title="Bluetooth">Bluetooth</a>), aplicaciones de negocios, juegos de azar, y la&nbsp;<a href="https://es.wikipedia.org/wiki/Fotograf%C3%ADa_digital" title="Fotografía digital">fotografía digital</a>. Los teléfonos móviles que ofrecen estos y más  capacidades de computación se los conoce como&nbsp;<a href="https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente" title="Teléfono inteligente">teléfonos inteligentes</a></p>
+</div>
+     <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>Aplicacion Dos, CMMF</h4>
+     </div>
+   </div>
+ </div>
+ 
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>HISTORIA</h1>
+       </div>
+       <div data-role="content" align="center">
+       
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Teléfono 1</h1>
+               <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/historiacolapsable1.jpg',1)"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/his1.jpeg',1)"><img src="imagenes/historia2.jpg" width="624" height="352" id="Image10"></a><br>
+              <div></div>
+            </div>
+          </div> 
+          
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Teléfono 2</h1>
+               <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/historia1.jpg',1)"><img src="imagenes/his1.jpeg" width="1024" height="768" id="Image5"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/historiacolapsable2.jpg',1)"></a><br>
+              <div></div>
+            </div>
+          </div> 
+          <p> El primer teléfono celular de mano fue presentado por Motorola en 1973. La primera red celular automatizada comercial fue lanzada en Japón por Nippon Telegraph and Telephone en 1979. Esto fue seguido en 1981 por el lanzamiento simultáneo del sistema de Telefonía Móvil Nórdica (NMT) en Dinamarca, Finlandia, Noruega y Suecia.6 Muchos otros países siguieron aplicándose en la primera mitad de la década de 1980. Estos sistemas de primera generación (1G) podían hacer llamadas simultáneas más lejos, pero todavía se utilizaba la tecnología analógica.
+En 1991, la segunda generación (2G) de tecnología celular digital fue lanzada en Finlandia por Radiolinja en el estándar GSM. Esto provocó la competencia en el sector ya que los nuevos operadores desafiaron a los operadores de red 1G existentes.
+Diez años más tarde, en 2001, la tercera generación (3G) fue lanzada en Japón por NTT DoCoMo en el estándar WCDMA. Esto fue seguido de 3.5G, 3G+ o 3G turbo mejoras basadas en el acceso de paquetes de alta velocidad (HSPA) de la familia, lo que permite a las redes UMTS tienen mayores velocidades de transferencia de datos y la capacidad
+Para el año 2009, se hizo evidente que, en algún momento, las redes 3G se verían abrumadas por el crecimiento de las aplicaciones de banda ancha, tales como transmisión multimedia.7 En consecuencia, la industria comenzó a buscar a las tecnologías de datos de cuarta generación optimizadas, con la promesa de mejorar la velocidad hasta diez veces sobre tecnologías 3G existentes. Las dos primeras tecnologías disponibles en el mercado facturadas como 4G eran el estándar WiMAX, ofrecido en Norteamérica por Sprint, y el estándar LTE, quien se ofreció por primera vez en Escandinavia por TeliaSonera.
+  </p>
+         <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Dos,COMF</h4>
+         </div>  
+      </div>
+</div>
+    
+     <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>CLASIFICACION</h1>
+       </div>
+       <div data-role="content" align="center">
+       
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Gama Baja</h1>
+              <p><img src="imagenes/gamabaja.JPG" width="628" height="386"></p>
+              <div>
+               <p>LG G3</p>
+               <br>
+              </div>
+              <div>
+                <p>Estos telefonos tienen menosres beneficios y menor calidad que los de gama media o alta por lo general su precio es desde los $2 mil a los $3500 pesos</p>
+              </div>
+            </div>
+          </div> 
+           
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Gama Media</h1>
+              <div>
+               <p>Sony Xperia M4</p>
+               <p><img src="imagenes/gamamedia.jpg" width="720" height="410"></p>
+               <br>
+              </div>
+              <div>
+                <p>Estos telefonos alguna vez fueron los del momento pero fueron decallendo conforme a los nuevos lanzaminetos </p>
+              </div>
+            </div>
+          </div> 
+          
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Gama Alta</h1>
+              <div>
+               <p>Iphone 7 Plus</p>
+               <img src="imagenes/gamalta.jpg" width="1192" height="648"><br>
+              </div>
+              <div>
+                <p>Los celulares que pertenecen a gama alta son los de mayor costo, quiere decir que se encuentran entre los precios mayor de $10,000.No cabe duda que estos celulares tienen el mejor sistema, mas duración de bateria y son resistentes al agua. </p>
+              </div>
+            </div>
+          </div>  
+      
+         <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Dos,CMMF</h4>
+         </div>  
+       </div>
+    </div>
+    
+     <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>COMPAÑIAS</h1>
+       </div>
+       <div data-role="content" align="center">
+       
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Movistar</h1>
+               <br>
+              <div> 
+               <img src="imagenes/movistar.png" width="50%" height="50%">
+               <address>
+               Visita la Página oficial de Movistar <a href="http://www.movistar.com.mx">click</a> 
+               </address>
+              </div>
+            </div>
+          </div>  
+          
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Telcel</h1>
+               <img src="imagenes/comp1.jpg" width="578" height="272"><br>
+              <div>
+                <address>
+               Visita la Página oficial de Telcel <a href="http://www.telcel.com/">click</a> 
+                </address>
+              </div>
+            </div>
+          </div> 
+          
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Unefon</h1>
+               <br>
+              <div> 
+               <img src="imagenes/unefon.png" width="50%" height="50%">
+               <address>
+               Visita la Página oficial de Unefon <a href="https://www.unefon.com.mx">click</a> 
+               </address>
+              </div>
+            </div>
+          </div>  
+          
+          <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>AT&T </h1>
+               <img src="imagenes/atnt.png" width="800" height="400"><br>
+              <div>
+                <address>
+               Visita la Página oficial de AT&T <a href="https://www.att.com.mx/">click</a> 
+                </address>
+              </div>
+            </div>
+          </div>   
+          
+         <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Dos,COMF</h4>
+         </div>  
+       </div>
+    </div>
+   
+     <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>TELEFONOS DEL FUTURO</h1>
+       </div>
+       <div data-role="content" align="center">
+       <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Proyecto ARA</h1>
+               <img src="imagenes/ara.jpg" width="800" height="500"><br>
+              <div></div>
+            </div>
+        </div> 
+        
+        <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Telefono Invisible</h1>
+               <img src="imagenes/invi.jpg" width="491" height="418"><br>
+              <div></div>
+            </div>
+        </div> 
+        
+        <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Intel Telefono flexible</h1>
+               <img src="imagenes/futu.jpg" width="480" height="360"><br>
+              <div></div>
+            </div>
+        </div> 
+        
+        <div data-role="main" class="ui-content">
+            <div data-role="collapsible" data-content-theme="false">
+              <h1>Nokia gem</h1>
+               <img src="imagenes/futu2.jpg" width="579" height="351"><br>
+              <div></div>
+            </div>
+        </div>  
+           
+         <div data-role="footer" data-theme="b" data-position="fixed">
+           <h4>Aplicacion Dos CMMF</h4>
+         </div>  
+      </div>
+    </div>
+</body>
+</html>
